@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.12.2" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44737,4794526157" ReportOptions.Description.Text="" ReportOptions.LastChange="44737,4835958102" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403980003546F7003D0000844617461736574730101063420446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="30,23624" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo2" Left="143,62214" Top="0" Width="291,02381" Height="26,45671" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-24" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Report Penjualan"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="154,96073" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="frxDBDataset1kode_penjualan" Left="11,33859" Top="0" Width="158,74026" Height="18,89765" ShowHint="False" DataField="kode_penjualan" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset1.&#34;kode_penjualan&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1tgl_penjualan" Left="181,41744" Top="3,77953" Width="79,37013" Height="18,89765" ShowHint="False" DataField="tgl_penjualan" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset1.&#34;tgl_penjualan&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1nama_pelanggan" Left="268,34663" Top="0" Width="400,63018" Height="18,89765" ShowHint="False" DataField="nama_pelanggan" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frxDBDataset1.&#34;nama_pelanggan&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="238,11039" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="642,5201" Top="0" Width="75,5906" Height="18,89765" ShowHint="False" HAlign="haRight" Text="[Page#]"/>
+      <TfrxMemoView Name="Memo6" Left="472,44125" Top="3,77953" Width="94,48825" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Delphi"/>
+    </TfrxPageFooter>
+    <TfrxColumnHeader Name="ColumnHeader1" Height="22,67718" Left="0" Top="71,81107" Width="718,1107">
+      <TfrxMemoView Name="Memo3" Left="7,55906" Top="3,77953" Width="139,84261" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Kode Penjualan"/>
+      <TfrxMemoView Name="Memo4" Left="170,07885" Top="3,77953" Width="151,1812" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Tanggal Penjualan"/>
+      <TfrxMemoView Name="Memo5" Left="343,93723" Top="3,77953" Width="170,07885" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Nama Pelanggan"/>
+    </TfrxColumnHeader>
+  </TfrxReportPage>
+</TfrxReport>
